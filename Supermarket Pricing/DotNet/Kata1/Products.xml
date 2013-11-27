@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Products>
+  <Product>
+    <Name>Sugar</Name>
+    <ProductId>S1</ProductId>
+    <UnitPrice>60</UnitPrice>
+    <UnitType>KG</UnitType>
+    <Brand>Pyrre</Brand>
+    <Stock>5</Stock>
+    <Category>Food</Category>
+  </Product>
+  <Product>
+    <Name>Tea</Name>
+    <UnitPrice>80</UnitPrice>
+    <ProductId>T1</ProductId>
+    <UnitType>KG</UnitType>
+    <Brand>Tata Tea</Brand>
+    <Stock>10</Stock>
+    <Category>Food</Category>
+  </Product>
+  <Product>
+    <Name>Water</Name>
+    <UnitPrice>15</UnitPrice>
+    <ProductId>W1</ProductId>
+    <UnitType>Litre</UnitType>
+    <Brand>Kinley</Brand>
+    <Stock>15</Stock>
+    <Category>Beverages</Category>
+  </Product>
+  <Product>
+    <Name>Ginger</Name>
+    <UnitPrice>120</UnitPrice>
+    <ProductId>G1</ProductId>
+    <UnitType>KG</UnitType>
+    <Brand>Home</Brand>
+    <Stock>1</Stock>
+    <Category>Vegetables</Category>
+  </Product>
+  <Product>
+    <Name>Milk</Name>
+    <UnitPrice>30</UnitPrice>
+    <UnitType>Litre</UnitType>
+    <ProductId>M1</ProductId>
+    <Brand>Nandhini</Brand>
+    <Stock>10</Stock>
+    <Category>Beverages</Category>
+  </Product>
+</Products>
