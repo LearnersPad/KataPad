@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketPricing.Domain", "SupermarketPricing.Domain\SupermarketPricing.Domain.csproj", "{56B81BEF-124E-4D05-B2A5-2E4C5211E60E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketPricing.Domain.Tests", "..\SupermarketPricing.Domain.Tests\SupermarketPricing.Domain.Tests.csproj", "{5E0ACA7B-D7B6-4318-B432-29BD8BFC1C82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{56B81BEF-124E-4D05-B2A5-2E4C5211E60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B81BEF-124E-4D05-B2A5-2E4C5211E60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B81BEF-124E-4D05-B2A5-2E4C5211E60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0ACA7B-D7B6-4318-B432-29BD8BFC1C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0ACA7B-D7B6-4318-B432-29BD8BFC1C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0ACA7B-D7B6-4318-B432-29BD8BFC1C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0ACA7B-D7B6-4318-B432-29BD8BFC1C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
