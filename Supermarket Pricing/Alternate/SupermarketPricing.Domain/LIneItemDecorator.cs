@@ -1,13 +1,11 @@
-﻿using System.ComponentModel;
-
-namespace SupermarketPricing.Domain
+﻿namespace SupermarketPricing.Domain
 {
-    public abstract class LIneItemDecorator:LineItem
+    public abstract class LineItemDecorator:LineItem
     {
 
         protected readonly LineItem ContainedLineItem;
 
-        protected LIneItemDecorator(LineItem lineItem) 
+        protected LineItemDecorator(LineItem lineItem) 
             : base(null, null)
         {
             ContainedLineItem = lineItem;

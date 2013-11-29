@@ -46,7 +46,7 @@
     <Compile Include="Customer.cs" />
     <Compile Include="DiscreetQuantity.cs" />
     <Compile Include="LineItem.cs" />
-    <Compile Include="LIneItemDecorator.cs" />
+    <Compile Include="LineItemDecorator.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductMeasurementType.cs" />
     <Compile Include="ProductPriceQuantifierUnit.cs" />
