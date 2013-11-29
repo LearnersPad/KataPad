@@ -46,18 +46,18 @@ namespace SupermarketPricing.Domain
         /// </summary>
         /// <param name="quantity"></param>
         /// <returns></returns>
-        public double CalculatePrice(float quantity)
+        public double CalculatePrice(Quantity quantity)
         {
             if (_measurementType == ProductMeasurementType.Continious)
             {
-                double multiplicationFactor = quantity/_minimumMeasurementUnit;
+                double multiplicationFactor = quantity.QuantityValue/_minimumMeasurementUnit;
                 return multiplicationFactor*_minimumMeasurementUnitPrice;
             }
             else
             {
-                if (Math.Abs(quantity%_minimumMeasurementUnit) > 0.00)
+                if (Math.Abs(quantity.QuantityValue%_minimumMeasurementUnit) > 0.00)
                     throw new ArgumentException();
-                var multiplicationFactor = (int) (quantity/_minimumMeasurementUnit);
+                var multiplicationFactor = (int) (quantity.QuantityValue/_minimumMeasurementUnit);
                 return multiplicationFactor*_minimumMeasurementUnitPrice;
             }
         }

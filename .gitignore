@@ -56,3 +56,10 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+# Visual Studio Specific Ignore's
+*.pdb
+*.cache
+*TemporaryGeneratedFile*.cs
+*FileListAbsolute*.txt
+

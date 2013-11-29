@@ -32,6 +32,16 @@ namespace SupermarketPricing.Domain
         }
 
         /// <summary>
+        /// Gets the Product
+        /// </summary>
+        public Product ProductDetail {
+            get
+            {
+                return _product;
+            }
+        }
+
+        /// <summary>
         /// Adds Stocks
         /// </summary>
         /// <param name="quantity"></param>
